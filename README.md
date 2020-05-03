@@ -1,7 +1,7 @@
 # java-practice
 > Study
 
-## Equlas And HashCode
+## Equals And HashCode
 
 ## Deep Copy vs Shallow Copy
 
