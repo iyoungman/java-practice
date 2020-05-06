@@ -9,10 +9,11 @@
 https://iyoungman.github.io/java/Java9-Module/  
 
 ## Reflection
-* 컴파일 타임에 클래스의 Type 정보를 알지 못해도 런타임에 Type 정보를 알 수 있다.
+* 컴파일 타임에 클래스의 Type 정보를 알지 못해도 런타임에 Type 정보를 가져올 수 있다.
 * 어디에 활용될까?
   * annotation
   * private method
+  * jdbc driver
     
 <br>
   
