@@ -1,7 +1,8 @@
 # java-practice
 > Study
 
-## Equals And HashCode
+## Equals And HashCode  
+https://iyoungman.github.io/java/Java-Equals-and-HashCode/  
 
 ## Deep Copy vs Shallow Copy
 
