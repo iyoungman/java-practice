@@ -14,7 +14,9 @@ https://iyoungman.github.io/java/Java9-Module/
 * 어디에 활용될까?
   * annotation
   * private method
-  * jdbc driver
+  * jdbc driver  
+* 참고
+  * http://tutorials.jenkov.com/java-reflection/index.html
     
 <br>
   
