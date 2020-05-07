@@ -48,4 +48,19 @@ protected RequestMappingInfo createRequestMappingInfo(RequestMapping requestMapp
     return builder.options(this.config).build();
 }
 ```
+
+## Serializable
+* 직렬화란?
+    * 외부 자바 시스템에서도 사용할 수 있도록
+    * 객체를 전송 가능한 형태로 만드는 것
+
+* serialVersionUID
+    * 직렬화에 사용되는 고유 ID
+    * 선언하지 않으면 JVM에서 자동 생성
+    * 명시적으로 선언해주지 않으면 객체 내부 정보가 변경되었을 때
+    * 다른 serialVersionUID가 자동 생성되므로 에러가 발생한다.
+    * 따라서 명시적으로 선언해주자.
+   
+* 자동 생성
+    * https://sidekick.tistory.com/524
   
