@@ -13,6 +13,8 @@ public class Main {
 
         One two = new One("Hello2");
         One shallowCopy = two;
+        shallowCopy.setValue("Hello3");
+        System.out.println(two.getValue() + " " + shallowCopy.getValue());
         System.out.println(two == shallowCopy);
     }
 }
@@ -28,6 +30,14 @@ class One implements Cloneable {
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return value;
     }
 }
 
