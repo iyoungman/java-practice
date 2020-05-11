@@ -64,3 +64,5 @@ protected RequestMappingInfo createRequestMappingInfo(RequestMapping requestMapp
 * 자동 생성
     * https://sidekick.tistory.com/524
   
+## ThreadLocal
+* 같은 Thread 내에서 전역적으로 값을 공유할 수 있도록 하는것 
