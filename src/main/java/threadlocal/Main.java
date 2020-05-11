@@ -19,23 +19,3 @@ public class Main {
     }
 }
 
-class A {
-
-    void set(int num) {
-        Context.local.set(num);
-    }
-}
-
-class B {
-
-    int get() {
-        return Context.local.get();
-    }
-}
-
-class C {
-
-    void remove() {
-        Context.local.remove();
-    }
-}
